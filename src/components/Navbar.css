@@ -1,0 +1,100 @@
+* {
+  margin-right: 40px;
+  padding: 0;
+  margin-top: -4px;
+}
+.menu-link {
+  display: flex;
+  align-items: center;
+}
+.menu-link ul {
+  display: flex;
+  color: rgb(243, 242, 242);
+  padding-left: 1300px;
+  margin-right: 100px;
+}
+.menu-link::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 14%;
+  width: 100%;
+  z-index: -1;
+  opacity: 100;
+}
+.menu-link ul li {
+  color: white;
+  list-style: none;
+  font-size: 1.3rem;
+  text-align: right;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.menu-link ul li a {
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  z-index: -1;
+  opacity: 100;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.menu-link ul li a:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.head {
+  margin-top: 120px;
+  margin-left: 300px;
+  color: rgb(22, 24, 22);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+}
+.content {
+  margin-top: -50px;
+}
+.d-flex {
+  margin-bottom: 60px;
+  margin-top: 20px;
+  padding-left: 150px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+.cardbox {
+  margin-top: 40px;
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+.products {
+  margin-left: 150px;
+  font-size: 30px;
+}
+.box h1 {
+  color: rgb(10, 28, 49);
+  font-size: large;
+  font-size: 30px;
+}
+.box p {
+  color: red;
+  font-size: xx-large;
+  font-size: 40px;
+}
+.text-muted {
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.ratings {
+  margin-left: 250px;
+  margin-top: -40px;
+  margin-right: 50px;
+  padding-right: -500px;
+}
+.logo ul li {
+  margin-right: 1200px;
+  margin-left: 0%;
+  margin-top: 0%;
+  padding: 0;
+  padding: -500px;
+}
